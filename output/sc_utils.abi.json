@@ -1,0 +1,42 @@
+{
+    "buildInfo": {
+        "rustc": {
+            "version": "1.63.0-nightly",
+            "commitHash": "cd282d7f75da9080fda0f1740a729516e7fbec68",
+            "commitDate": "2022-05-18",
+            "channel": "Nightly",
+            "short": "rustc 1.63.0-nightly (cd282d7f7 2022-05-18)"
+        },
+        "contractCrate": {
+            "name": "sc_utils",
+            "version": "0.0.0"
+        },
+        "framework": {
+            "name": "elrond-wasm",
+            "version": "0.34.1"
+        }
+    },
+    "name": "UtilsContract",
+    "constructor": {
+        "inputs": [],
+        "outputs": []
+    },
+    "endpoints": [
+        {
+            "name": "esdtMultiTransfer",
+            "onlyOwner": true,
+            "mutability": "mutable",
+            "inputs": [
+                {
+                    "name": "wallets",
+                    "type": "variadic<multi<Address,TokenIdentifier,u64,BigUint>>",
+                    "multi_arg": true
+                }
+            ],
+            "outputs": []
+        }
+    ],
+    "events": [],
+    "hasCallback": false,
+    "types": {}
+}

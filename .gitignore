@@ -1,0 +1,8 @@
+# Elrond IDE
+**/erdpy.data-storage.json
+**/*.interaction.json
+# added
+**/target/**
+Cargo.lock
+meta/Cargo.lock
+wasm/Cargo.lock

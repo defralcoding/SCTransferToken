@@ -1,0 +1,20 @@
+[
+    "mBufferNew",
+    "mBufferAppend",
+    "mBufferAppendBytes",
+    "managedSignalError",
+    "mBufferGetArgument",
+    "signalError",
+    "getNumArguments",
+    "mBufferGetByteSlice",
+    "mBufferSetBytes",
+    "bigIntSetInt64",
+    "bigIntAdd",
+    "managedMultiTransferESDTNFTExecute",
+    "checkNoPayment",
+    "managedOwnerAddress",
+    "managedCaller",
+    "mBufferEq",
+    "mBufferGetLength",
+    "mBufferToBigIntUnsigned"
+]

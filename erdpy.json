@@ -1,0 +1,34 @@
+{
+    "configurations": {
+        "default": {
+            "proxy": "https://gateway.elrond.com",
+            "chainID": "1"
+        }
+    },
+    "contract": {
+        "deploy": {
+            "chain": "1",
+            "metadata-payable": true,
+            "metadata-payable-by-sc": true,
+            "verbose": true,
+            "bytecode": "output/sc_utils.wasm",
+            "recall-nonce": true,
+            "pem": "~/wallets/tortugastaking.pem",
+            "gas-limit": 59999999,
+            "send": true,
+            "outfile": "deploy.interaction.json"
+        },
+        "upgrade": {
+            "chain": "1",
+            "metadata-payable": true,
+            "metadata-payable-by-sc": true,
+            "verbose": true,
+            "bytecode": "output/sc_utils.wasm",
+            "recall-nonce": true,
+            "pem": "~/wallets/tortugastaking.pem",
+            "gas-limit": 599999999,
+            "send": true,
+            "outfile": "deploy.interaction.json"
+        }
+    }
+}
